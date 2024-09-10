@@ -1,0 +1,64 @@
+.cart-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #ff69b4; /* Borde rosado */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000; /* Asegúrate de que el dropdown esté encima de otros elementos */
+  }
+  
+  .cart-dropdown-header h5 {
+    margin-bottom: 15px;
+  }
+  
+  .cart-items {
+    max-height: 300px; /* Limita la altura del contenedor */
+    overflow-y: auto; /* Añade scroll si hay muchos elementos */
+  }
+  
+  .cart-items .list-group-item {
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .cart-items .btn-danger {
+    margin-left: 10px;
+  }
+  
+  .cart-dropdown-footer {
+    padding-top: 10px;
+  }
+  
+  .cart-empty-alert {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    border: 2px solid #ff69b4; /* Borde rosado */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff3cd;
+    color: #856404;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000; /* Asegúrate de que el mensaje esté encima de otros elementos */
+  }
+  .cart-item-image {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+  }
+  
+  /* cart-dropdown.component.css */
+.cart-item-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
